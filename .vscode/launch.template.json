@@ -5,12 +5,12 @@
    "version": "0.2.0",
    "configurations": [
         {
-            "name": ".NET Core Launch (console)",
-            "type": "coreclr",
+            "name": ".NET Framework Launch (console)",
+            "type": "clr",
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Demo/bin/Debug/net5.0/Demo.dll",
+            "program": "${workspaceFolder}/Demo/bin/Debug/net48/Demo.exe",
             "args": [],
             "cwd": "${workspaceFolder}/Demo",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
@@ -18,8 +18,8 @@
             "stopAtEntry": false
         },
         {
-            "name": ".NET Core Attach",
-            "type": "coreclr",
+            "name": ".NET Framework Attach",
+            "type": "clr",
             "request": "attach",
             "processId": "${command:pickProcess}"
         }
