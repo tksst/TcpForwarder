@@ -11,7 +11,7 @@
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/Demo/bin/Debug/net48/Demo.exe",
-            "args": [],
+            "args": ["192.0.2.0", "80", "8080"],
             "cwd": "${workspaceFolder}/Demo",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
